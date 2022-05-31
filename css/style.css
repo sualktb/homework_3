@@ -124,3 +124,8 @@ section {
   padding: 30px;
   margin-top: -22px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer { text-align: left; }
+ 
+}
