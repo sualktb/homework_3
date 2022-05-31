@@ -56,6 +56,17 @@ section {
 .text-pink {
   color: #EE4367;
 }
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+hr.belowText {
+  border: 1px solid white;
+  border-radius: 1px;
+  width: 25%;
+  position: absolute;
+  margin-top: -20px;
+}
 /* change responsiveness for small screen to show two rows with nicely spaced items */
 @media screen and (max-width: 768px) {
   .hlist { flex-wrap: wrap; }
