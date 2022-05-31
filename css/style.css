@@ -50,6 +50,12 @@ section {
   text-decoration: none;
 }
 
+.text-white {
+  color: white;
+}
+.text-pink {
+  color: #EE4367;
+}
 /* change responsiveness for small screen to show two rows with nicely spaced items */
 @media screen and (max-width: 768px) {
   .hlist { flex-wrap: wrap; }
@@ -105,12 +111,26 @@ section {
   padding-right: 0px;
   padding-top: 20px;
 }
+.container{
+  position: relative;
+  padding-left: 20px;
+  width:100%;
+}
+
+.summaryBlog{
+  width: 18%;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .summaryBlog { width: 40%; }
+ }
 
 .upcoming h2 {
   font-size: 25px;
   font-weight: bold;
   color: white;
-  padding-left: 20px;
 }
 @media screen and (max-width: 768px) {
   .md-center { text-align: center; }
